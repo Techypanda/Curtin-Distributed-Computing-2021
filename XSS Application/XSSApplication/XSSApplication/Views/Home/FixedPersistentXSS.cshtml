@@ -1,0 +1,147 @@
+﻿
+@{
+	ViewBag.Title = "PersistentXSS";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body class="container">
+	<div class="content">
+		<div id="page">
+			<h1 class="display-1" style="text-align: center">Persistent XSS</h1>
+
+			<div class="row" style="display: flex; justify-content: center;" id="initial">
+				<div class="col-sm-3" style="display: flex; justify-content: center;">
+					<div class="btn btn-primary" id="createBlogBtn">Create A Post</div>
+				</div>
+				<div class="col-sm-3" style="display: flex; justify-content: center;">
+					<div class="btn btn-primary" id="seePostsBtn">See Posts</div>
+				</div>
+			</div>
+
+			<div id="createBlog" class="row">
+				<div class="col-sm-12" style="margin-bottom: 5px;">
+					<input style="width: 100%; max-width: initial" placeholder="Enter Post Title" id="postTitleInput" />
+				</div>
+				<div class="col-sm-12" style="margin-bottom: 5px;">
+					<input style="width: 100%; max-width: initial" placeholder="Enter Post Content" id="postContentInput" />
+				</div>
+				<div class="col-sm-12" style="margin-bottom: 20px;">
+					<div class="btn btn-primary" id="createButton">Create</div>
+				</div>
+			</div>
+
+			<div id="seeBlogs" class="row">
+			</div>
+			<div id="viewBlog" class="row"></div>
+
+			<div id="domxssexplanation" style="margin-bottom: 20px;">
+				<hr />
+				<h3>What is Persistent XSS</h3>
+				<p>Persistent XSS is when the exploiter puts some data in a storage on backend i.e dataabase, then a client requests data from the server and the data now contains bad code i.e js in the db.</p>
+				<hr />
+				<h3>How To Cause The Persistent XSS & An Example</h3>
+				<p>Create a new blog named 'example' with content &lt;script&gt;alert("all your based belong to us")&lt;/script&gt;, then go ahead and 'see posts' -> and view the example post -- Fixed on this page :)</p>
+				<hr />
+				<h3>Fixing The Exploit</h3>
+				You are on the fixed version :)
+			</div>
+
+			<div class="btn btn-primary" id="homebtn" style="margin-top: 20px;">Home</div>
+			<script>
+				$("#seeBlogs").hide();
+				$("#createBlog").hide();
+				function nav(url, state) {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, state, url);
+						$.ajax({
+							url: url,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#page").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				}
+				$("#fixedVersionBtn").click(() => {
+					nav(`${window.location.origin}/Home/FixedPersistentXSS`, "Fixed Persistent XSS")
+				})
+				$("#createBlogBtn").click(() => {
+					$("#initial").fadeOut();
+					$("#createBlog").fadeIn();
+				});
+				$("#createButton").click(() => {
+					const Title = $("#postTitleInput").val()
+					const Content = $("#postContentInput").val()
+					$.ajax({
+						url: `https://${window.location.host}/api/Post/Create`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							Title, Content
+						}),
+						success: (data) => {
+							alert("Created Post")
+							$("#createBlog").fadeOut();
+							$("#initial").fadeIn();
+						},
+						error: (err) => {
+							console.error(err);
+						}
+					})
+				})
+				$("#seePostsBtn").click(() => {
+					$("#seeBlogs").empty()
+					$.ajax({
+						url: `https://${window.location.host}/api/Post/all/good`,
+						type: 'get',
+						contentType: 'application/json',
+						processData: false,
+						success: (data) => {
+							$("#seeBlogs").append(`<div class="col-sm-12"><h3>Click On A Post To View It</h3></div>`)
+							data['postTitles'].forEach((post) => {
+								$("#seeBlogs").append(`
+												<div class="col-sm-12">
+													<div class="btn btn-primary btn-block blogPost">${post}</div>
+												</div>
+											`)
+							})
+							$(".blogPost").click((data) => {
+								const postTitle = data.target.innerHTML;
+								$.ajax({
+									url: `https://${window.location.host}/api/Post/good/${postTitle}`,
+									type: 'get',
+									contentType: 'application/json',
+									processData: false,
+									success: (d) => {
+										$("#seeBlogs").fadeOut();
+										$("#seeBlogs").empty();
+										$("#viewBlog").html(`
+														<div class="col-sm-12">${d['Title']}</div>
+														<div class="col-sm-12">${d['Content']}</div>
+													`)
+										$("#viewBlog").fadeIn();
+									},
+									error: (err) => {
+										console.error(err)
+									}
+								})
+							});
+							$("#initial").fadeOut();
+							$("#seeBlogs").fadeIn();
+						},
+						error: (err) => {
+							console.error(err);
+						}
+					})
+				})
+				$("#homebtn").click(() => {
+					nav(`${window.location.origin}/Home`, "Home")
+				});
+			</script>
+		</div>
+	</div>
+</body>

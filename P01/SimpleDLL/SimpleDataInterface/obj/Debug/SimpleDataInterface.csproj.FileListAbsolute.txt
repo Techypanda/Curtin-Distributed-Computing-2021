@@ -1,0 +1,9 @@
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\bin\Debug\SimpleDataInterface.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\bin\Debug\SimpleDataInterface.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\bin\Debug\System.ServiceModel.Primitives.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\bin\Debug\System.ServiceModel.Primitives.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\obj\Debug\SimpleDataInterface.csprojAssemblyReference.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\obj\Debug\SimpleDataInterface.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\obj\Debug\SimpleDataInterface.csproj.CopyComplete
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\obj\Debug\SimpleDataInterface.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDataInterface\obj\Debug\SimpleDataInterface.pdb

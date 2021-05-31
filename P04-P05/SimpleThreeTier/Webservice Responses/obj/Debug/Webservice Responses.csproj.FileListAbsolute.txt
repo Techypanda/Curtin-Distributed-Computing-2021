@@ -1,0 +1,6 @@
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\bin\Debug\Webservice Responses.dll
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\bin\Debug\Webservice Responses.pdb
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\obj\Debug\Webservice Responses.csprojAssemblyReference.cache
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\obj\Debug\Webservice Responses.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\obj\Debug\Webservice Responses.dll
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Responses\obj\Debug\Webservice Responses.pdb

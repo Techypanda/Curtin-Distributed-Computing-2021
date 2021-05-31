@@ -1,0 +1,24 @@
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csprojAssemblyReference.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csprojAssemblyReference.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csprojAssemblyReference.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csprojAssemblyReference.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.pdb

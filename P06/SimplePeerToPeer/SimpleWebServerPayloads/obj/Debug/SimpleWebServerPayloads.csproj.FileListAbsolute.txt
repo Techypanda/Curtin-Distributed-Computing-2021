@@ -1,0 +1,6 @@
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\bin\Debug\SimpleWebServerPayloads.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\bin\Debug\SimpleWebServerPayloads.pdb
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\obj\Debug\SimpleWebServerPayloads.csprojAssemblyReference.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\obj\Debug\SimpleWebServerPayloads.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\obj\Debug\SimpleWebServerPayloads.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerPayloads\obj\Debug\SimpleWebServerPayloads.pdb

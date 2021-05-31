@@ -1,0 +1,102 @@
+﻿
+@{
+	ViewBag.Title = "Users";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+	<div class="content">
+		<div id="users">
+			<div class="container">
+				<h1 class="display-1">Transactions</h1>
+				<div id="homebtn" class="btn btn-primary">Home</div>
+				<h3>Select Operation</h3>
+				<div class="row container" style="">
+					<select id="useroperationselect" class="form-select" style="width: 100%; max-width: initial;" aria-label="Default select example">
+						<option selected value="moneytransfer">Transfer Money Between Accounts</option>
+					</select>
+				</div>
+
+				<div id="moneytransferform" style="margin-top: 20px;">
+					<div class="row container">
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter The Account To Transfer Money From" id="fromAcc" />
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter The Account To Transfer Money To" id="toAcc" />
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter The Amount To Transfer" id="amountCurr" />
+					</div>
+					<div class="results">
+						<h5 id="moneyTransferPrompt"></h5>
+					</div>
+				</div>
+
+				<div id="registergo" class="btn btn-default" style="margin-top: 40px;">
+					Go!
+				</div>
+			</div>
+			<script>
+				function performTransfer() {
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/SendMoney`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							recieverAccountID: parseInt($("#toAcc").val()),
+							myAccountID: parseInt($("#fromAcc").val()),
+							amount: parseInt($("#amountCurr").val())
+						}),
+						success: (data) => {
+							$(".results").show();
+							$("#moneyTransferPrompt").html(`Account Created! - AccountID: ${JSON.stringify(data)}`);
+						},
+						error: (err) => {
+							$(".results").show();
+							$("#moneyTransferPrompt").html(`Account Creation Failed! - ${err.responseText}`);
+						}
+					});
+				}
+				function hideAll() {
+					$("#moneytransferform").hide();
+				}
+				function modeSwitch() {
+					hideAll();
+					switch (mode) {
+						case "moneytransfer":
+							$("#moneytransferform").show();
+							break;
+					}
+				}
+				if (typeof mode !== 'undefined') {
+					let mode;
+				}
+				mode = "moneytransfer";
+				$("#homebtn").click(() => {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, "Home", `${window.location.origin}/Home`);
+						$.ajax({
+							url: `${window.location.origin}/Home`,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#home").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				})
+				$("#useroperationselect").change(() => {
+					mode = $("#useroperationselect").val();
+					modeSwitch();
+				});
+				modeSwitch();
+				$("#registergo").click(() => {
+					$(".results").hide();
+					switch (mode) {
+						case "moneytransfer":
+							performTransfer();
+							break;
+					}
+				});
+			</script>
+		</div>
+	</div>
+</body>

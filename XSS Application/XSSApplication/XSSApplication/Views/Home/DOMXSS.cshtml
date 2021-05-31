@@ -1,0 +1,72 @@
+﻿
+@{
+	ViewBag.Title = "DOMXSS";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body class="container">
+	<div class="content">
+		<div id="page">
+			<h1 class="display-1" style="text-align: center">DOM Based XSS</h1>
+
+			<div class="row" style="margin-bottom: 20px;">
+				<div class="col-sm-11" style="padding-right: 0;">
+					<input style="max-width: initial; height: 34px; width: 100%;" id="xssinjection" placeholder="Enter cool content to display on the page!"/>
+				</div>
+				<div class="col-sm-1" style="padding-left: 0;">
+					<div id="xssinjectionbtn" class="btn btn-danger btn-block">Inject</div>
+				</div>
+			</div>
+			<div class="domxsscontainer">
+			</div>
+			<div id="domxssexplanation" style="margin-bottom: 20px;">
+				<hr />
+				<h3>What is DOM based XSS</h3>
+				<p>DOM Based XSS is when the client side browser is fed raw html through a url/other source and injects it into the server response. This page does this by using a XSS query parameter, you can then inject any html through the XSS query parameter and make a DOM based XSS exploit.</p>
+				<hr />
+				<h3>How To Cause The Dom Based XSS & An Example</h3>
+				<p>Inject a &lt;script&gt; tag with some js in it in a xss query, then when the page is loaded it will inject it into the page, an example I can give is <a href="" id="injectURL">This URL</a></p>
+				<hr />
+				<h3>Fixing The Exploit</h3>
+				<div class="btn btn-primary" id="fixedVersionBtn">Click Here To See Fixed Version</div>
+			</div>
+
+			<div class="btn btn-primary" id="homebtn">Home</div>
+			<script>
+				function nav(url, state) {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, state, url);
+						$.ajax({
+							url: url,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#page").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				}
+				$("#injectURL")[0].href = `${window.location.origin}/Home/DOMXSS?xss=\<script>alert("All your base are belong to us")<\/script>`
+				$("#homebtn").click(() => {
+					nav(`${window.location.origin}/Home`, "Home")
+				});
+				$("#fixedVersionBtn").click(() => {
+					nav(`${window.location.origin}/Home/FixedDOMXSS`, "Fixed DOM XSS")
+				});
+				function injectXSS(content) {
+					$(".domxsscontainer").html(content);
+				}
+				$("#xssinjectionbtn").click(() => {
+					window.location.href = `${ window.location.origin }/Home/DOMXSS?xss=${ $("#xssinjection").val() }`
+				});
+				if (typeof (urlXSS) == undefined) {
+					let urlXSS;
+				}
+				urlXSS = (new URL(location.href)).searchParams.get('xss')
+				injectXSS(urlXSS);
+			</script>
+		</div>
+	</div>
+</body>

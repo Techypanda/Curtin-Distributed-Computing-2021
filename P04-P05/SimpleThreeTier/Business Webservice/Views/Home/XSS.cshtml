@@ -1,0 +1,48 @@
+﻿
+@{
+	ViewBag.Title = "XSS";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+	<div class="content">
+		<div id="users">
+			<div class="container">
+				<h1 class="display-1">Welcome to the nice page</h1>
+				<div id="homebtn" class="btn btn-primary">Home</div>
+				<p>Please Enter A Search</p>
+				<div class="row container" style="margin-bottom: 20px;">
+					<input class="col-sm-12" type="text" placeholder="Enter The Search" style="max-width: initial; display: block;" id="TK421" name="TK421" />
+				</div>
+				<div id="xssbutton" class="btn btn-default">Go!</div>
+				<div id="Content"></div>
+			</div>
+			<script>
+				function DoAThing() {
+
+					const newElement = document.createElement("p");
+					const html = document.createTextNode($("#TK421").val());
+					newElement.appendChild(html);
+					$("#Content").html(newElement); // XSS Prevented
+				}
+				$("#xssbutton").click(() => {
+					DoAThing();
+				});
+				$("#homebtn").click(() => {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, "Home", `${window.location.origin}/Home`);
+						$.ajax({
+							url: `${window.location.origin}/Home`,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#home").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					});
+				})
+			</script>
+		</div>
+	</div>
+</body>

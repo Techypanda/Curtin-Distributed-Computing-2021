@@ -1,0 +1,15 @@
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\bin\Debug\SimpleLibrary.dll
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\bin\Debug\SimpleLibrary.pdb
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.csprojAssemblyReference.cache
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.dll
+Y:\Distributed Computing\P07\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.pdb
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\bin\Debug\SimpleLibrary.dll
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\bin\Debug\SimpleLibrary.pdb
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\bin\Debug\System.ServiceModel.Primitives.dll
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\bin\Debug\System.ServiceModel.Primitives.pdb
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.csprojAssemblyReference.cache
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.csproj.CopyComplete
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.dll
+Y:\Distributed Computing\P08\SimpleCryptoSystem\SimpleLibrary\obj\Debug\SimpleLibrary.pdb

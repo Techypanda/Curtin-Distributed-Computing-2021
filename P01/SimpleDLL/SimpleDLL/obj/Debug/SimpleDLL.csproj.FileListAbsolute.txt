@@ -1,0 +1,6 @@
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\bin\Debug\SimpleDLL.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csprojAssemblyReference.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleDLL\obj\Debug\SimpleDLL.pdb

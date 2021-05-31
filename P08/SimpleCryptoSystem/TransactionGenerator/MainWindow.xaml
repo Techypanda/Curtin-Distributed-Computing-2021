@@ -1,0 +1,30 @@
+﻿<Window x:Class="TransactionGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TransactionGenerator"
+        mc:Ignorable="d"
+        Title="SimpleTransactionGenerator" Height="450" Width="800">
+	<Grid>
+		<ListBox x:Name="BlockchainBlocks" HorizontalAlignment="Left" Height="340" Margin="10,32,0,0" VerticalAlignment="Top" Width="229"/>
+		<Label Content="Generated Blocks" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" Width="128" FontSize="14" FontWeight="Bold"/>
+		<Button Name="UpdateBlocksButton"  Content="Check For New Blocks" HorizontalAlignment="Left" Margin="10,387,0,0" VerticalAlignment="Top" Width="126" Click="UpdateBlocksButton_Click"/>
+		<ProgressBar Name="UpdateBlocksProgress" IsIndeterminate="False" HorizontalAlignment="Left" Height="10" Margin="10,375,0,0" VerticalAlignment="Top" Width="229"/>
+		<TextBox x:Name="AccountNumberInput" HorizontalAlignment="Left" Height="19" Margin="563,32,0,0" TextWrapping="Wrap" Text="Enter Account Number" VerticalAlignment="Top" Width="130"/>
+		<Button Name="CheckBalanceButton" Content="Check Balance" HorizontalAlignment="Left" Margin="698,32,0,0" VerticalAlignment="Top" Width="84" Height="19" Click="CheckBalanceButton_Click"/>
+		<TextBox Name="BalanceDisplay" HorizontalAlignment="Left" Height="18" Margin="563,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="219" IsReadOnly="True"/>
+		<ProgressBar Name="BalanceProgress" IsIndeterminate="False" HorizontalAlignment="Left" Height="10" Margin="563,79,0,0" VerticalAlignment="Top" Width="219"/>
+		<Image HorizontalAlignment="Left" Height="100" Margin="367,10,0,0" VerticalAlignment="Top" Width="100" Source="Capture.PNG"/>
+		<Label Content="TeggyCoin" HorizontalAlignment="Left" Margin="381,104,0,0" VerticalAlignment="Top" Width="71" FontWeight="Bold"/>
+		<Label Content="New Transaction" HorizontalAlignment="Left" Margin="448,275,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+		<TextBox Name="FromWalletInput" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="448,306,0,0" TextWrapping="Wrap" Text="Enter From Wallet" VerticalAlignment="Top" Width="156"/>
+		<TextBox Name="ToWalletInput" HorizontalAlignment="Left" Height="23" Margin="615,306,0,0" TextWrapping="Wrap" Text="Enter To Wallet" VerticalAlignment="Top" Width="156"/>
+		<TextBox Name="AmountInput" HorizontalAlignment="Left" Height="23" Margin="448,334,0,0" TextWrapping="Wrap" Text="Enter Amount" VerticalAlignment="Top" Width="323"/>
+		<Button Name="SendTransButton" Content="Send Trans" HorizontalAlignment="Left" Margin="448,362,0,0" VerticalAlignment="Top" Width="75" Click="SendTransButton_Click"/>
+		<ProgressBar Name="TransBar" HorizontalAlignment="Left" Height="18" Margin="528,362,0,0" VerticalAlignment="Top" Width="243"/>
+		<TextBox x:Name="WalletIDEntry" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="334,135,0,0" TextWrapping="Wrap" Text="My WalletID: " VerticalAlignment="Top" Width="156"/>
+		<CheckBox Checked="TransferCheck_Checked" Unchecked="TransferCheck_Unchecked" x:Name="TransferCheck" Content="Transfer From Genesis Account (0)" HorizontalAlignment="Left" Margin="557,283,0,0" VerticalAlignment="Top"/>
+
+	</Grid>
+</Window>

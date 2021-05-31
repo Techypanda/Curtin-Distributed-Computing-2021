@@ -1,0 +1,6 @@
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\bin\Debug\SimpleWebServerResponses.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\bin\Debug\SimpleWebServerResponses.pdb
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\obj\Debug\SimpleWebServerResponses.csprojAssemblyReference.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\obj\Debug\SimpleWebServerResponses.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\obj\Debug\SimpleWebServerResponses.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleWebServerResponses\obj\Debug\SimpleWebServerResponses.pdb

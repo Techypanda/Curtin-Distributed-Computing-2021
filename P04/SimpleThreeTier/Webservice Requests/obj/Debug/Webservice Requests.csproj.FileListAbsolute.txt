@@ -1,0 +1,6 @@
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\bin\Debug\Webservice Requests.dll
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\bin\Debug\Webservice Requests.pdb
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\obj\Debug\Webservice Requests.csprojAssemblyReference.cache
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\obj\Debug\Webservice Requests.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\obj\Debug\Webservice Requests.dll
+C:\Distributed-Computing\P04\SimpleThreeTier\Webservice Requests\obj\Debug\Webservice Requests.pdb

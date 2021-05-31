@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Users";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+	<div class="content">
+		<div id="users">
+			<div class="container">
+				<h1 class="display-1">Users</h1>
+				<div id="homebtn" class="btn btn-primary">Home</div>
+				<h3>Select Operation</h3>
+				<div class="row container" style="">
+					<select id="useroperationselect" class="form-select" style="width: 100%; max-width: initial;" aria-label="Default select example">
+						<option selected value="userdetail">See User Details</option>
+						<option value="register">Register A User</option>
+					</select>
+				</div>
+				<div class="user-details-container" style="margin-top: 20px;">
+					<h4>User Details</h4>
+					<div class="row container">
+						<input id="useridinput" type="text" style="display: block; width: 100%; max-width: initial;" placeholder="Enter User ID" />
+					</div>
+					<div class="results">
+						<h5 id="firstname-display" style="margin-bottom: 0;">Firstname: John</h5>
+						<h5 id="lastname-display" style="margin-top: 0;">Lastname: Doe</h5>
+					</div>
+					<div id="useridgo" class="btn btn-default" style="margin-top: 40px;">
+						Go!
+					</div>
+				</div>
+				<div class="register-user-container" style="margin-top: 20px;">
+					<h4>Register User</h4>
+					<div class="row container">
+						<input type="text" style="width: 100%; margin-bottom: 5px; max-width: initial;" id="firstnameInput" placeholder="Input Firstname" />
+						<input type="text" style="width: 100%; max-width: initial;" id="lastnameInput" placeholder="Input Lastname" />
+					</div>
+					<div class="results">
+						<h5 class="userprompt">User Created! UserID: </h5>
+					</div>
+					<div id="registergo" class="btn btn-default" style="margin-top: 40px;">
+						Go!
+					</div>
+				</div>
+			</div>
+			<script>
+				if (typeof mode !== 'undefined') {
+					let mode;
+				}
+				mode = $("#useroperationselect").val();
+				function showUserDetail() {
+					$(".user-details-container").show();
+					$(".register-user-container").hide();
+					$(".results").hide();
+				}
+				function showRegister() {
+					$(".register-user-container").show();
+					$(".user-details-container").hide();
+				}
+				function changeMode() {
+					switch (mode) {
+						case "userdetail":
+							showUserDetail();
+							break;
+						case "register":
+							showRegister();
+							break;
+					}
+				}
+				$(".user-details-container").hide();
+				$("#homebtn").click(() => {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, "Home", `${window.location.origin}/Home`);
+						$.ajax({
+							url: `${window.location.origin}/Home`,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#home").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					});
+				})
+				$("#useridgo").click(() => {
+					$(".results").hide();
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/FetchUser/${$("#useridinput").val()}`,
+						type: 'get',
+						contentType: 'application/json',
+						processData: false,
+						success: (data) => {
+							$("#firstname-display").html(`Firstname: ${data["firstname"]}`)
+							$("#lastname-display").html(`Lastname: ${data["lastname"]}`)
+							$(".results").show();
+						},
+						error: (err) => {
+							$("#firstname-display").html(`Error: ${err.responseText}`)
+							$("#lastname-display").html(``)
+							$(".results").show();
+						}
+					})
+				});
+				$("#useroperationselect").change(() => {
+					mode = $("#useroperationselect").val();
+					changeMode();
+				});
+				$("#registergo").click(() => {
+					$(".results").hide();
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/RegisterAccount`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							firstname: $("#firstnameInput").val(),
+							lastname: $("#lastnameInput").val()
+						}),
+						success: (data) => {
+							$(".results").show();
+							$(".userprompt").html(`Account Created! - User ID: ${data["accountID"]}`);
+						},
+						error: (err) => {
+							console.error(err);
+						}
+					});
+				});
+				changeMode();
+			</script>
+		</div>
+	</div>
+</body>

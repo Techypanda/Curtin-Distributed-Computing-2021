@@ -1,0 +1,431 @@
+30/04/2021 12:34:28 PM - Attempting To Register A New User - Jonathan Wright
+30/04/2021 12:34:29 PM - Successfully Created A New Account With ID - 429663138
+30/04/2021 12:34:29 PM - Saved Database Successfully
+30/04/2021 1:09:22 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:22 PM - Successfully Created A New Account With ID - 452020963
+30/04/2021 1:09:22 PM - Saved Database Successfully
+30/04/2021 1:09:24 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:24 PM - Successfully Created A New Account With ID - 999485067
+30/04/2021 1:09:24 PM - Saved Database Successfully
+30/04/2021 1:09:25 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:25 PM - Successfully Created A New Account With ID - 104162629
+30/04/2021 1:09:25 PM - Saved Database Successfully
+30/04/2021 1:09:25 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:25 PM - Successfully Created A New Account With ID - 100860656
+30/04/2021 1:09:25 PM - Saved Database Successfully
+30/04/2021 1:09:25 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:25 PM - Successfully Created A New Account With ID - 316819723
+30/04/2021 1:09:25 PM - Saved Database Successfully
+30/04/2021 1:09:25 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:25 PM - Successfully Created A New Account With ID - 815168736
+30/04/2021 1:09:25 PM - Saved Database Successfully
+30/04/2021 1:09:25 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:25 PM - Successfully Created A New Account With ID - 313517750
+30/04/2021 1:09:25 PM - Saved Database Successfully
+30/04/2021 1:09:26 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:26 PM - Successfully Created A New Account With ID - 334292078
+30/04/2021 1:09:26 PM - Saved Database Successfully
+30/04/2021 1:09:26 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:26 PM - Successfully Created A New Account With ID - 832641091
+30/04/2021 1:09:26 PM - Saved Database Successfully
+30/04/2021 1:09:26 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:26 PM - Successfully Created A New Account With ID - 330990105
+30/04/2021 1:09:26 PM - Saved Database Successfully
+30/04/2021 1:09:26 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:26 PM - Successfully Created A New Account With ID - 634154378
+30/04/2021 1:09:26 PM - Saved Database Successfully
+30/04/2021 1:09:26 PM - Attempting To Register A New User - test test
+30/04/2021 1:09:26 PM - Successfully Created A New Account With ID - 937318651
+30/04/2021 1:09:26 PM - Saved Database Successfully
+30/04/2021 1:16:24 PM - Attempting To Register A New User - test test
+30/04/2021 1:16:24 PM - Successfully Created A New Account With ID - 683783284
+30/04/2021 1:16:25 PM - Saved Database Successfully
+30/04/2021 1:16:33 PM - Attempting To Register A New User - test test
+30/04/2021 1:16:34 PM - Successfully Created A New Account With ID - 347990699
+30/04/2021 1:16:34 PM - Saved Database Successfully
+30/04/2021 2:27:06 PM - Opening A New Bank Account For User ID - 1243
+30/04/2021 2:27:06 PM - Opening A New Bank Account For User ID - 1243
+30/04/2021 2:27:07 PM - Successfully Created A New Bank Account ID: 974553119
+30/04/2021 2:37:20 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:37:20 PM - Successfully Created A New Bank Account ID: 741187865
+30/04/2021 2:37:20 PM - Saved Database Successfully
+30/04/2021 2:37:27 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:37:27 PM - Successfully Created A New Bank Account ID: 523202449
+30/04/2021 2:37:27 PM - Saved Database Successfully
+30/04/2021 2:37:35 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:37:35 PM - Successfully Created A New Bank Account ID: 622551689
+30/04/2021 2:37:35 PM - Saved Database Successfully
+30/04/2021 2:37:36 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:37:36 PM - Successfully Created A New Bank Account ID: 831906810
+30/04/2021 2:37:36 PM - Saved Database Successfully
+30/04/2021 2:38:37 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:38:37 PM - Successfully Created A New Bank Account ID: 490380429
+30/04/2021 2:38:37 PM - Saved Database Successfully
+30/04/2021 2:38:37 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:38:37 PM - Successfully Created A New Bank Account ID: 988729442
+30/04/2021 2:38:37 PM - Saved Database Successfully
+30/04/2021 2:38:37 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:38:37 PM - Successfully Created A New Bank Account ID: 291893716
+30/04/2021 2:38:37 PM - Saved Database Successfully
+30/04/2021 2:38:45 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:38:45 PM - Successfully Created A New Bank Account ID: 694407229
+30/04/2021 2:38:45 PM - Saved Database Successfully
+30/04/2021 2:38:46 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:38:46 PM - Successfully Created A New Bank Account ID: 321510104
+30/04/2021 2:38:46 PM - Saved Database Successfully
+30/04/2021 2:39:46 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:39:46 PM - Successfully Created A New Bank Account ID: 589535958
+30/04/2021 2:39:46 PM - Saved Database Successfully
+30/04/2021 2:39:52 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:39:52 PM - Successfully Created A New Bank Account ID: 657242461
+30/04/2021 2:39:52 PM - Saved Database Successfully
+30/04/2021 2:39:53 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:39:53 PM - Successfully Created A New Bank Account ID: 511094529
+30/04/2021 2:39:53 PM - Saved Database Successfully
+30/04/2021 2:39:53 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:39:53 PM - Successfully Created A New Bank Account ID: 368248570
+30/04/2021 2:39:53 PM - Saved Database Successfully
+30/04/2021 2:39:55 PM - Opening A New Bank Account For User ID - 291893716
+30/04/2021 2:39:55 PM - Successfully Created A New Bank Account ID: 612548400
+30/04/2021 2:39:55 PM - Saved Database Successfully
+30/04/2021 2:40:28 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:28 PM - Successfully Created A New Bank Account ID: 344752368
+30/04/2021 2:40:28 PM - Saved Database Successfully
+30/04/2021 2:40:30 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:30 PM - Successfully Created A New Bank Account ID: 14366389
+30/04/2021 2:40:31 PM - Saved Database Successfully
+30/04/2021 2:40:31 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:31 PM - Successfully Created A New Bank Account ID: 512715402
+30/04/2021 2:40:31 PM - Saved Database Successfully
+30/04/2021 2:40:31 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:31 PM - Successfully Created A New Bank Account ID: 174684703
+30/04/2021 2:40:31 PM - Saved Database Successfully
+30/04/2021 2:40:31 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:31 PM - Successfully Created A New Bank Account ID: 836654003
+30/04/2021 2:40:31 PM - Saved Database Successfully
+30/04/2021 2:40:31 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:31 PM - Successfully Created A New Bank Account ID: 139818277
+30/04/2021 2:40:31 PM - Saved Database Successfully
+30/04/2021 2:40:45 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:40:45 PM - Successfully Created A New Bank Account ID: 787750678
+30/04/2021 2:40:45 PM - Saved Database Successfully
+30/04/2021 2:40:48 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:40:48 PM - Successfully Created A New Bank Account ID: 993882110
+30/04/2021 2:40:48 PM - Saved Database Successfully
+30/04/2021 2:40:48 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:40:48 PM - Successfully Created A New Bank Account ID: 760528972
+30/04/2021 2:40:48 PM - Saved Database Successfully
+30/04/2021 2:40:48 PM - Opening A New Bank Account For User ID - 1324
+30/04/2021 2:40:48 PM - Successfully Created A New Bank Account ID: 258877986
+30/04/2021 2:40:48 PM - Saved Database Successfully
+30/04/2021 2:41:05 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:41:05 PM - Successfully Created A New Bank Account ID: 241695681
+30/04/2021 2:41:05 PM - Saved Database Successfully
+30/04/2021 2:41:13 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:13 PM - Successfully Created A New Bank Account ID: 37880647
+30/04/2021 2:41:13 PM - Saved Database Successfully
+30/04/2021 2:41:15 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:15 PM - Successfully Created A New Bank Account ID: 923375450
+30/04/2021 2:41:15 PM - Saved Database Successfully
+30/04/2021 2:41:15 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:15 PM - Successfully Created A New Bank Account ID: 226539724
+30/04/2021 2:41:15 PM - Saved Database Successfully
+30/04/2021 2:41:31 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:31 PM - Successfully Created A New Bank Account ID: 690234077
+30/04/2021 2:41:31 PM - Saved Database Successfully
+30/04/2021 2:41:32 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:32 PM - Successfully Created A New Bank Account ID: 529994047
+30/04/2021 2:41:32 PM - Saved Database Successfully
+30/04/2021 2:41:32 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:32 PM - Successfully Created A New Bank Account ID: 80681841
+30/04/2021 2:41:32 PM - Saved Database Successfully
+30/04/2021 2:41:33 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:41:33 PM - Successfully Created A New Bank Account ID: 599805182
+30/04/2021 2:41:33 PM - Saved Database Successfully
+30/04/2021 2:41:56 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:41:57 PM - Successfully Created A New Bank Account ID: 591386654
+30/04/2021 2:41:57 PM - Saved Database Successfully
+30/04/2021 2:42:05 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:42:05 PM - Successfully Created A New Bank Account ID: 401742001
+30/04/2021 2:42:05 PM - Saved Database Successfully
+30/04/2021 2:42:06 PM - Opening A New Bank Account For User ID - 429663138
+30/04/2021 2:42:06 PM - Successfully Created A New Bank Account ID: 471553136
+30/04/2021 2:42:06 PM - Saved Database Successfully
+30/04/2021 2:42:07 PM - Opening A New Bank Account For User ID - 123
+30/04/2021 2:42:07 PM - Successfully Created A New Bank Account ID: 666816160
+30/04/2021 2:42:07 PM - Saved Database Successfully
+30/04/2021 2:42:08 PM - Opening A New Bank Account For User ID - 123
+30/04/2021 2:42:08 PM - Successfully Created A New Bank Account ID: 92130349
+30/04/2021 2:42:08 PM - Saved Database Successfully
+30/04/2021 2:42:08 PM - Opening A New Bank Account For User ID - 123
+30/04/2021 2:42:08 PM - Successfully Created A New Bank Account ID: 590479362
+30/04/2021 2:42:08 PM - Saved Database Successfully
+30/04/2021 2:42:08 PM - Opening A New Bank Account For User ID - 123
+30/04/2021 2:42:08 PM - Successfully Created A New Bank Account ID: 730023349
+30/04/2021 2:42:08 PM - Saved Database Successfully
+30/04/2021 2:42:10 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 2:42:10 PM - Successfully Created A New Bank Account ID: 991795534
+30/04/2021 2:42:10 PM - Saved Database Successfully
+30/04/2021 2:55:48 PM - Depositing Money - 991795534 $24
+30/04/2021 2:55:48 PM - Successfully Deposited
+30/04/2021 2:55:48 PM - Saved Database Successfully
+30/04/2021 2:56:48 PM - Depositing Money - 991795534 $5
+30/04/2021 2:56:48 PM - Successfully Deposited
+30/04/2021 2:59:06 PM - Depositing Money - 991795534 $5
+30/04/2021 2:59:06 PM - Successfully Deposited
+30/04/2021 2:59:18 PM - Saved Database Successfully
+30/04/2021 3:00:12 PM - Depositing Money - 0 $0
+30/04/2021 3:00:15 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:00:47 PM - Depositing Money - 991795534 $5
+30/04/2021 3:00:47 PM - Successfully Deposited
+30/04/2021 3:00:47 PM - Saved Database Successfully
+30/04/2021 3:01:52 PM - Depositing Money - 0 $0
+30/04/2021 3:01:54 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:02:11 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:11 PM - Successfully Deposited
+30/04/2021 3:02:11 PM - Saved Database Successfully
+30/04/2021 3:02:12 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:12 PM - Successfully Deposited
+30/04/2021 3:02:12 PM - Saved Database Successfully
+30/04/2021 3:02:12 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:12 PM - Successfully Deposited
+30/04/2021 3:02:12 PM - Saved Database Successfully
+30/04/2021 3:02:13 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:13 PM - Successfully Deposited
+30/04/2021 3:02:13 PM - Saved Database Successfully
+30/04/2021 3:02:13 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:13 PM - Successfully Deposited
+30/04/2021 3:02:13 PM - Saved Database Successfully
+30/04/2021 3:02:13 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:13 PM - Successfully Deposited
+30/04/2021 3:02:13 PM - Saved Database Successfully
+30/04/2021 3:02:13 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:13 PM - Successfully Deposited
+30/04/2021 3:02:13 PM - Saved Database Successfully
+30/04/2021 3:02:13 PM - Depositing Money - 991795534 $5
+30/04/2021 3:02:13 PM - Successfully Deposited
+30/04/2021 3:02:13 PM - Saved Database Successfully
+30/04/2021 3:04:55 PM - Depositing Money - 0 $0
+30/04/2021 3:04:57 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:05:21 PM - Depositing Money - 0 $0
+30/04/2021 3:05:24 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:05:46 PM - Depositing Money - 0 $0
+30/04/2021 3:05:48 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:06:56 PM - Withdrawing Money - 0 $5
+30/04/2021 3:06:58 PM - Failed To Withdraw $$$ - No account selected
+30/04/2021 3:07:11 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:11 PM - Successfully Withdrawn
+30/04/2021 3:07:11 PM - Saved Database Successfully
+30/04/2021 3:07:12 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:12 PM - Successfully Withdrawn
+30/04/2021 3:07:12 PM - Saved Database Successfully
+30/04/2021 3:07:12 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:12 PM - Successfully Withdrawn
+30/04/2021 3:07:12 PM - Saved Database Successfully
+30/04/2021 3:07:12 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:12 PM - Successfully Withdrawn
+30/04/2021 3:07:12 PM - Saved Database Successfully
+30/04/2021 3:07:12 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:12 PM - Successfully Withdrawn
+30/04/2021 3:07:12 PM - Saved Database Successfully
+30/04/2021 3:07:13 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:13 PM - Successfully Withdrawn
+30/04/2021 3:07:13 PM - Saved Database Successfully
+30/04/2021 3:07:13 PM - Withdrawing Money - 991795534 $5
+30/04/2021 3:07:13 PM - Successfully Withdrawn
+30/04/2021 3:07:13 PM - Saved Database Successfully
+30/04/2021 3:07:50 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:50 PM - Successfully Deposited
+30/04/2021 3:07:50 PM - Saved Database Successfully
+30/04/2021 3:07:50 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:50 PM - Successfully Deposited
+30/04/2021 3:07:50 PM - Saved Database Successfully
+30/04/2021 3:07:51 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:51 PM - Successfully Deposited
+30/04/2021 3:07:51 PM - Saved Database Successfully
+30/04/2021 3:07:51 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:51 PM - Successfully Deposited
+30/04/2021 3:07:51 PM - Saved Database Successfully
+30/04/2021 3:07:51 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:51 PM - Successfully Deposited
+30/04/2021 3:07:51 PM - Saved Database Successfully
+30/04/2021 3:07:51 PM - Depositing Money - 991795534 $5
+30/04/2021 3:07:51 PM - Successfully Deposited
+30/04/2021 3:07:51 PM - Saved Database Successfully
+30/04/2021 3:07:53 PM - Depositing Money - 991795534 $15
+30/04/2021 3:07:53 PM - Successfully Deposited
+30/04/2021 3:07:53 PM - Saved Database Successfully
+30/04/2021 3:07:55 PM - Depositing Money - 991795534 $1500
+30/04/2021 3:07:55 PM - Successfully Deposited
+30/04/2021 3:07:55 PM - Saved Database Successfully
+30/04/2021 3:07:58 PM - Depositing Money - 991795534 $0
+30/04/2021 3:07:58 PM - Successfully Deposited
+30/04/2021 3:07:58 PM - Saved Database Successfully
+30/04/2021 3:08:01 PM - Depositing Money - 991795534 $0
+30/04/2021 3:08:01 PM - Successfully Deposited
+30/04/2021 3:08:01 PM - Saved Database Successfully
+30/04/2021 3:08:02 PM - Depositing Money - 991795534 $0
+30/04/2021 3:08:02 PM - Successfully Deposited
+30/04/2021 3:08:02 PM - Saved Database Successfully
+30/04/2021 3:08:05 PM - Depositing Money - 0 $0
+30/04/2021 3:08:07 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:08:12 PM - Depositing Money - 991795534 $0
+30/04/2021 3:08:12 PM - Successfully Deposited
+30/04/2021 3:08:12 PM - Saved Database Successfully
+30/04/2021 3:08:15 PM - Depositing Money - 0 $0
+30/04/2021 3:08:17 PM - Failed To Deposit $$$ - No account selected
+30/04/2021 3:10:15 PM - Checking Balance - 991795534
+30/04/2021 3:10:15 PM - Successfully Checked Balance
+30/04/2021 3:10:17 PM - Checking Balance - 991795534
+30/04/2021 3:10:17 PM - Successfully Checked Balance
+30/04/2021 3:10:38 PM - Opening A New Bank Account For User ID - 991795534
+30/04/2021 3:10:38 PM - Successfully Created A New Bank Account ID: 428430574
+30/04/2021 3:10:38 PM - Saved Database Successfully
+30/04/2021 3:10:43 PM - Checking Balance - 991795534
+30/04/2021 3:10:43 PM - Successfully Checked Balance
+30/04/2021 3:11:00 PM - Checking Balance - 991795534
+30/04/2021 3:11:00 PM - Successfully Checked Balance
+30/04/2021 3:11:13 PM - Checking Balance - 991795534
+30/04/2021 3:11:13 PM - Successfully Checked Balance
+30/04/2021 3:11:16 PM - Checking Balance - 99179553
+30/04/2021 3:11:18 PM - Failed To Check Balance - No account selected
+30/04/2021 3:20:36 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 3:20:36 PM - Successfully Created A New Bank Account ID: 142514774
+30/04/2021 3:20:36 PM - Saved Database Successfully
+30/04/2021 3:20:55 PM - Opening A New Bank Account For User ID - 0
+30/04/2021 3:20:55 PM - Successfully Created A New Bank Account ID: 739305735
+30/04/2021 3:20:55 PM - Saved Database Successfully
+30/04/2021 3:21:20 PM - Sending Money 0 -> 730023349, $5
+30/04/2021 3:21:24 PM - Failed To Process Transactions! - Account ID0 Not found
+30/04/2021 3:21:24 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:21:24 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:22:18 PM - Sending Money 0 -> 730023349, $5
+30/04/2021 3:22:20 PM - Failed To Process Transactions! - Account ID0 Not found
+30/04/2021 3:22:20 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:22:20 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:22:48 PM - Sending Money 0 -> 0, $0
+30/04/2021 3:22:50 PM - Failed To Process Transactions! - Account ID0 Not found
+30/04/2021 3:22:50 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:22:50 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:23:15 PM - Sending Money 0 -> 730023349, $6
+30/04/2021 3:23:18 PM - Failed To Process Transactions! - Account ID0 Not found
+30/04/2021 3:23:18 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:23:18 PM - Failed To Send Money Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+30/04/2021 3:24:36 PM - Sending Money 0 -> 730023349, $5
+30/04/2021 3:24:40 PM - Failed To Process Transactions! - Account ID0 Not found
+30/04/2021 3:24:40 PM - Failed To Send Money StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: text/plain; charset=utf-8
+}
+30/04/2021 3:24:40 PM - Failed To Send Money StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: text/plain; charset=utf-8
+}
+30/04/2021 3:25:47 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:47 PM - Successfully Process Transactions!
+30/04/2021 3:25:49 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:49 PM - Successfully Process Transactions!
+30/04/2021 3:25:50 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:50 PM - Successfully Process Transactions!
+30/04/2021 3:25:51 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:51 PM - Successfully Process Transactions!
+30/04/2021 3:25:52 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:52 PM - Successfully Process Transactions!
+30/04/2021 3:25:52 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:52 PM - Successfully Process Transactions!
+30/04/2021 3:25:52 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:52 PM - Successfully Process Transactions!
+30/04/2021 3:25:52 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:52 PM - Successfully Process Transactions!
+30/04/2021 3:25:52 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:53 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:53 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:54 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:54 PM - Successfully Process Transactions!
+30/04/2021 3:25:55 PM - Sending Money 991795534 -> 730023349, $5
+30/04/2021 3:25:55 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:15 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:15 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:16 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:16 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:17 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:17 PM - Successfully Process Transactions!
+30/04/2021 3:26:18 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:18 PM - Successfully Process Transactions!
+30/04/2021 3:26:18 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:18 PM - Successfully Process Transactions!
+30/04/2021 3:26:18 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:18 PM - Successfully Process Transactions!
+30/04/2021 3:26:18 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:18 PM - Successfully Process Transactions!
+30/04/2021 3:26:18 PM - Sending Money 730023349 -> 991795534, $5
+30/04/2021 3:26:20 PM - Failed To Process Transactions! - Transaction ID976244838 has failed due to insufficient funds
+30/04/2021 3:26:20 PM - Failed To Send Money StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: text/plain; charset=utf-8
+}
+30/04/2021 3:26:20 PM - Failed To Send Money StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: text/plain; charset=utf-8
+}
+30/04/2021 6:02:18 PM - Attempting To Register A New User - <script>alert(“Oh no”);</script> yeeee
+30/04/2021 6:02:20 PM - Successfully Created A New Account With ID - 645533585
+30/04/2021 6:02:20 PM - Saved Database Successfully
+30/04/2021 6:15:56 PM - Attempting To Register A New User - <script>alert(“Oh no”);</script> yeeee
+30/04/2021 6:15:57 PM - Successfully Created A New Account With ID - 946211748
+30/04/2021 6:15:58 PM - Saved Database Successfully

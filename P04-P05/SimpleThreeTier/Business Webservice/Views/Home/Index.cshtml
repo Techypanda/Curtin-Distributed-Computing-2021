@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body class="container">
+    <div class="content">
+		<div id="home">
+			<h1 class="display-1">Bank - Home</h1>
+			<p>Where would you like to go?</p>
+			<div class="row container">
+				<div class="col">
+					<div class="btn btn-primary" id="users-btn">
+						Users
+					</div>
+					<div class="btn btn-primary" id="accs-btn">
+						Accounts
+					</div>
+					<div class="btn btn-primary" id="trans-btn">
+						Transactions
+					</div>
+					<div class="btn btn-primary" id="xss-btn">
+						Stefan's XSS Challenge
+					</div>
+				</div>
+			</div>
+			<script>
+				function nav(url, state) {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, state, url);
+						$.ajax({
+							url: url,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#users").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				}
+				$(document).ready(() => {
+					$("#users-btn").click(() => {
+						nav(`${window.location.origin}/Home/Users`, "Users");
+					})
+					$("#trans-btn").click(() => {
+						nav(`${window.location.origin}/Home/Transactions`, "Transactions");
+					})
+					$("#accs-btn").click(() => {
+						nav(`${window.location.origin}/Home/Accounts`, "Accounts");
+					})
+					$("#xss-btn").click(() => {
+						nav(`${window.location.origin}/Home/XSS`, "Stefan's XSS Vulnerability Challenge");
+					});
+				})
+			</script>
+		</div>
+    </div>
+</body>

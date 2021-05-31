@@ -1,0 +1,9 @@
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\bin\Debug\SimpleServerThread.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\bin\Debug\SimpleServerThread.pdb
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\bin\Debug\System.ServiceModel.Primitives.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\bin\Debug\System.ServiceModel.Primitives.pdb
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\obj\Debug\SimpleServerThread.csprojAssemblyReference.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\obj\Debug\SimpleServerThread.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\obj\Debug\SimpleServerThread.csproj.CopyComplete
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\obj\Debug\SimpleServerThread.dll
+Y:\Distributed Computing\P06\SimplePeerToPeer\SimpleServerThread\obj\Debug\SimpleServerThread.pdb

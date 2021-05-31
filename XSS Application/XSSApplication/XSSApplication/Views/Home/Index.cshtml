@@ -1,0 +1,49 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body class="container">
+	<div class="content"> <!-- Content Gets Injected Here -->
+		<div id="page">
+			<h1 class="display-1" style="text-align: center">Select XSS Type To Test</h1>
+			<div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+				<div class="col-sm-3" style="display: flex; justify-content: center;">
+					<div class="btn btn-primary" id="DOMXSSBtn">DOM Based XSS</div>
+				</div>
+				<div class="col-sm-3" style="display: flex; justify-content: center;">
+					<div class="btn btn-primary" id="PersistentXSSBtn">Persistent XSS</div>
+				</div>
+				<div class="col-sm-3" style="display: flex; justify-content: center;">
+					<div class="btn btn-primary" id="ReflectiveXSSBtn">Reflective XSS</div>
+				</div>
+			</div>
+			<script>
+				function nav(url, state) {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, state, url);
+						$.ajax({
+							url: url,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#page").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				}
+				$("#DOMXSSBtn").click(() => {
+					nav(`${window.location.origin}/Home/DOMXSS`, "Dom Based XSS")
+				});
+				$("#PersistentXSSBtn").click(() => {
+					nav(`${window.location.origin}/Home/PersistentXSS`, "Persistent XSS")
+				});
+				$("#ReflectiveXSSBtn").click(() => {
+					nav(`${window.location.origin}/Home/ReflectiveXSS`, "Reflective XSS")
+				});
+			</script>
+		</div>
+	</div>
+</body>

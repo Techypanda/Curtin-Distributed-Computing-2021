@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "ReflectiveXSS";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body class="container">
+	<div class="content">
+		<div id="page">
+			<h1 class="display-1" style="text-align: center">Reflective XSS</h1>
+
+			<div class="row" id="loginForm">
+				<div class="col-sm-12" style="margin-bottom: 10px;">
+					<input type="text" placeholder="Enter Username" style="width: 100%; max-width: initial;" id="usernameInput" />
+				</div>
+				<div class="col-sm-12" style="margin-bottom: 10px;">
+					<input type="password" placeholder="Enter Password" style="width: 100%; max-width: initial;" id="passwordInput" />
+				</div>
+				<div class="col-sm-12" style="margin-bottom: 20px;">
+					<div class="btn btn-danger" id="loginBtn">Login</div>
+				</div>
+			</div>
+
+			<div id="responseForm" style="color: red;">
+			</div>
+
+			<hr />
+			<h3>What Is Reflective XSS</h3>
+			<p>Client side browser makes a request to the server for some content, in this case its a authenticated page with username/password as payload. Then the server returns a response that contains that input, this is dangerous if not escaped as you could set the username to a bad payload containing code, which is then returned and executed on client side leading to XSS.</p>
+			<hr />
+			<h3>How To Cause The Reflective XSS & An Example</h3>
+			<p>Request the content with a script tag with some js in it, this will not be escaped by server and then cause a exploit. Try entering &lt;script&gt;alert("all your base are belong to us")&lt;/script&gt; as the username and login to see an example</p>
+			<hr />
+			<h3>Fixing The Exploit</h3>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="btn btn-primary" id="fixButton" style="margin-bottom: 20px;">Click Here To See Fixed Version</div>
+				</div>
+			</div>
+
+			<div class="btn btn-primary" id="homebtn">Home</div>
+
+			<script>
+				$("#responseForm").empty();
+				$("#responseForm").hide();
+				function nav(url, state) {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, state, url);
+						$.ajax({
+							url: url,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#page").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					})
+				}
+				$("#homebtn").click(() => {
+					nav(`${window.location.origin}/Home`, "Home")
+				});
+				$("#fixButton").click(() => {
+					nav(`${window.location.origin}/Home/FixedReflectiveXSS`, "Fixed Reflective XSS")
+				})
+				$("#loginBtn").click(() => {
+					$("#loginForm").fadeOut()
+					$.ajax({
+						url: `https://${window.location.host}/api/Login/xss`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							username: $("#usernameInput").val(),
+							password: $("#passwordInput").val()
+						}),
+						success: (data) => { console.log(data) },
+						error: (err) => {
+							const response = err.responseText;
+							$("#responseForm").html(response);
+							$("#responseForm").fadeIn();
+						}
+					})
+				})
+
+			</script>
+		</div>
+	</div>
+</body>

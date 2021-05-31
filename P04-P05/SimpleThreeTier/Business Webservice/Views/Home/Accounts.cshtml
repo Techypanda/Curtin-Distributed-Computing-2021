@@ -1,0 +1,207 @@
+﻿
+@{
+    ViewBag.Title = "Users";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+	<div class="content">
+		<div id="users">
+			<div class="container">
+				<h1 class="display-1">Accounts</h1>
+				<div id="homebtn" class="btn btn-primary">Home</div>
+				<h3>Select Operation</h3>
+				<div class="row container" style="">
+					<select id="useroperationselect" class="form-select" style="width: 100%; max-width: initial;" aria-label="Default select example">
+						<option selected value="openaccount">Open An Account</option>
+						<option value="depositaccount">Deposit In Account</option>
+						<option value="withdrawaccount">Withdraw From Account</option>
+						<option value="balanceaccount">Check Balance In Account</option>
+					</select>
+				</div>
+				<div id="openaccountform" style="margin-top: 20px;">
+					<div class="row container">
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter UserID" id="useridinput" />
+					</div>
+					<div class="results">
+						<h5 id="accountCreationPrompt"></h5>
+					</div>
+				</div>
+				<div id="depositform" style="margin-top: 20px;">
+					<div class="row container">
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter Bank Account ID" id="accountidinput" />
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter Money" id="moneyinput" />
+					</div>
+					<div class="results">
+						<h5 id="depositPrompt"></h5>
+					</div>
+				</div>
+				<div id="withdrawform" style="margin-top: 20px;">
+					<div class="row container">
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter Bank Account ID" id="accountidinput2" />
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter Money" id="moneyinput2" />
+					</div>
+					<div class="results">
+						<h5 id="withdrawPrompt"></h5>
+					</div>
+				</div>
+				<div id="balanceform" style="margin-top: 20px;">
+					<div class="row container">
+						<input type="text" class="col-sm-12" style="max-width: initial; display: block;" placeholder="Enter Bank Account ID" id="accountid" />
+					</div>
+					<div class="results">
+						<h5 id="balancePrompt"></h5>
+					</div>
+				</div>
+				<div id="registergo" class="btn btn-default" style="margin-top: 40px;">
+					Go!
+				</div>
+			</div>
+			<script>
+				function performAccountCreate() {
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/OpenAccount`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							userID: parseInt($("#useridinput").val())
+						}),
+						success: (data) => {
+							$(".results").show();
+							$("#accountCreationPrompt").html(`Account Created! - AccountID: ${data["accountID"]}`);
+						},
+						error: (err) => {
+							$(".results").show();
+							$("#accountCreationPrompt").html(`Account Creation Failed! - ${err.responseText}`);
+						}
+					});
+				}
+				function performWithdraw() {
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/Withdraw`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							accountID: $("#accountidinput2").val(),
+							amount: $("#moneyinput2").val()
+						}),
+						success: (data) => {
+							$(".results").show();
+							$("#withdrawPrompt").html(`Withdraw Success! - ${data}`);
+						},
+						error: (err) => {
+							$(".results").show();
+							$("#withdrawPrompt").html(`Withdraw Failed! - ${err.responseText}`);
+						}
+					});
+				}
+				function performDeposit() {
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/Deposit`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							accountID: $("#accountidinput").val(),
+							amount: $("#moneyinput").val()
+						}),
+						success: (data) => {
+							$(".results").show();
+							$("#depositPrompt").html(`Deposit Success! - ${data}`);
+						},
+						error: (err) => {
+							$(".results").show();
+							$("#depositPrompt").html(`Deposit Failed! - ${err.responseText}`);
+						}
+					});
+				}
+				function performBalanceCheck() {
+					$.ajax({
+						url: `https://${window.location.host}/api/Bank/Balance`,
+						type: 'post',
+						contentType: 'application/json',
+						processData: false,
+						data: JSON.stringify({
+							accountID: $("#accountid").val()
+						}),
+						success: (data) => {
+							$(".results").show();
+							$("#balancePrompt").html(`Balance Check Success! - $${data["balance"]}`);
+						},
+						error: (err) => {
+							$(".results").show();
+							$("#balancePrompt").html(`Balance Check Failed! - ${err.responseText}`);
+						}
+					});
+				}
+				function hideAll() {
+					$("#openaccountform").hide();
+					$("#depositform").hide();
+					$("#withdrawform").hide();
+					$("#balanceform").hide();
+				}
+				function initAccount() {
+					$("#openaccountform").show();
+				}
+				function modeSwitch() {
+					hideAll();
+					switch (mode) {
+						case "openaccount":
+							initAccount();
+							break;
+						case "depositaccount":
+							$("#depositform").show();
+							break;
+						case "withdrawaccount":
+							$("#withdrawform").show();
+							break;
+						case "balanceaccount":
+							$("#balanceform").show();
+					}
+				}
+				if (typeof mode !== 'undefined') {
+					let mode;
+				}
+				mode = "openaccount";
+				$("#homebtn").click(() => {
+					$(".content").fadeOut(400, () => {
+						history.pushState({}, "Home", `${window.location.origin}/Home`);
+						$.ajax({
+							url: `${window.location.origin}/Home`,
+							type: 'get',
+							success: (data) => {
+								const html = $(data).find("#home").html()
+								$(".content").empty();
+								$(".content").append(html);
+								$(".content").fadeIn();
+							}
+						});
+					});
+				})
+				$("#useroperationselect").change(() => {
+					mode = $("#useroperationselect").val();
+					modeSwitch();
+				});
+				modeSwitch();
+				$("#registergo").click(() => {
+					$(".results").hide();
+					switch (mode) {
+						case "openaccount":
+							performAccountCreate();
+							break;
+						case "depositaccount":
+							performDeposit();
+							break;
+						case "withdrawaccount":
+							performWithdraw();
+							break;
+						case "balanceaccount":
+							performBalanceCheck();
+							break;
+					}
+				});
+			</script>
+		</div>
+	</div>
+</body>

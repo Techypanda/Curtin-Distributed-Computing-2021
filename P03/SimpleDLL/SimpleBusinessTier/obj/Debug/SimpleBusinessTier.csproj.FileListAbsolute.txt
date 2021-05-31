@@ -1,0 +1,39 @@
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe.config
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.dll
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.dll
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csprojAssemblyReference.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CopyComplete
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.exe
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe.config
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csprojAssemblyReference.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CopyComplete
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P02\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe.config
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleBusinessTier.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\SimpleDataInterface.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csprojAssemblyReference.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.csproj.CopyComplete
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P03\SimpleDLL\SimpleBusinessTier\obj\Debug\SimpleBusinessTier.pdb

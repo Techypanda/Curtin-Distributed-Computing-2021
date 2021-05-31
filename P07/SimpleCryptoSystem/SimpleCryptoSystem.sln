@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBlockchainServer", "SimpleBlockchainServer\SimpleBlockchainServer.csproj", "{9AB8EBEB-8179-4513-A4D8-13661FA363A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePayloads", "SimplePayloads\SimplePayloads.csproj", "{607C9369-1657-406D-BBCC-C88F4C6603E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleResponses", "SimpleResponses\SimpleResponses.csproj", "{91060727-F8A5-48F5-9F0B-10C6ECE289F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLibrary", "SimpleLibrary\SimpleLibrary.csproj", "{BE75EB06-1894-4B32-AE4D-A13BA09BE6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionGenerator", "TransactionGenerator\TransactionGenerator.csproj", "{C77173AF-5B70-4A01-B810-CF775CFE767B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMiner", "SimpleMiner\SimpleMiner.csproj", "{FE9D8333-B4E3-4557-83E1-F87B955DDE13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB8EBEB-8179-4513-A4D8-13661FA363A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB8EBEB-8179-4513-A4D8-13661FA363A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB8EBEB-8179-4513-A4D8-13661FA363A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB8EBEB-8179-4513-A4D8-13661FA363A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607C9369-1657-406D-BBCC-C88F4C6603E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607C9369-1657-406D-BBCC-C88F4C6603E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607C9369-1657-406D-BBCC-C88F4C6603E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607C9369-1657-406D-BBCC-C88F4C6603E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91060727-F8A5-48F5-9F0B-10C6ECE289F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91060727-F8A5-48F5-9F0B-10C6ECE289F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91060727-F8A5-48F5-9F0B-10C6ECE289F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91060727-F8A5-48F5-9F0B-10C6ECE289F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE75EB06-1894-4B32-AE4D-A13BA09BE6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE75EB06-1894-4B32-AE4D-A13BA09BE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE75EB06-1894-4B32-AE4D-A13BA09BE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE75EB06-1894-4B32-AE4D-A13BA09BE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77173AF-5B70-4A01-B810-CF775CFE767B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77173AF-5B70-4A01-B810-CF775CFE767B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77173AF-5B70-4A01-B810-CF775CFE767B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77173AF-5B70-4A01-B810-CF775CFE767B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9D8333-B4E3-4557-83E1-F87B955DDE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9D8333-B4E3-4557-83E1-F87B955DDE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9D8333-B4E3-4557-83E1-F87B955DDE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9D8333-B4E3-4557-83E1-F87B955DDE13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1618673D-6365-47AF-8B8F-BC695A02EAAD}
+	EndGlobalSection
+EndGlobal

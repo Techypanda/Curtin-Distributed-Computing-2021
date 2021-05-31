@@ -1,0 +1,103 @@
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe.config
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csprojAssemblyReference.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\MainWindow.g.cs
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\App.g.cs
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.lref
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\MainWindow.baml
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.g.resources
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.Properties.Resources.resources
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.GenerateResource.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CopyComplete
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.exe
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.pdb
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.dll
+Y:\Distributed Computing\P01\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe.config
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.dll
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe.config
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.pdb
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csprojAssemblyReference.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\MainWindow.g.cs
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\App.g.cs
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.lref
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\MainWindow.baml
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.g.resources
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.Properties.Resources.resources
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.GenerateResource.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CoreCompileInputs.cache
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CopyComplete
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.exe
+Y:\Distributed Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe.config
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.dll
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe.config
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.pdb
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csprojAssemblyReference.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\MainWindow.g.cs
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\App.g.cs
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.lref
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\MainWindow.baml
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.g.resources
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.Properties.Resources.resources
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.GenerateResource.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CopyComplete
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.exe
+C:\Distributed-Computing\P02\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe.config
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.exe
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleClient.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleBusinessTier.exe.config
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\SimpleDataInterface.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csprojAssemblyReference.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\MainWindow.g.cs
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\App.g.cs
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient_MarkupCompile.lref
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\MainWindow.baml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.g.resources
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.Properties.Resources.resources
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.GenerateResource.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CoreCompileInputs.cache
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.csproj.CopyComplete
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.exe
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\obj\Debug\SimpleClient.pdb
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\RestSharp.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Buffers.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Memory.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Text.Json.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.ValueTuple.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\RestSharp.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Buffers.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Memory.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Text.Json.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\System.ValueTuple.xml
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Distributed-Computing\P03\SimpleDLL\SimpleClient\bin\Debug\Newtonsoft.Json.xml
